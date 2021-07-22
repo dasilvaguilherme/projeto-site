@@ -1,15 +1,48 @@
-* {
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-   
+@charset "UTF-8";
+*{
+   font-family: Arial, Helvetica, sans-serif;
+
 }
-h1{
-    border: 1px solid green;
-    margin: 20px;
+body{
+    background-image: linear-gradient(to top, #F2D7B6, #d49881, #D9805F);
+    background-attachment: fixed;
+}
+main{
+    background-image: linear-gradient(-45deg, #CCD9D7, #223859);
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgb(29, 32, 77);
+    width: 800px;
     padding: 20px;
+    margin: auto;
+}
+
+h1{
+    color: #D9D48B;
+    text-shadow: 2px 2px 10px #807c52 ;
     text-align: center;
 }
+
+h2{
+    color:#222559;
+    text-shadow: 2px 2px 10px #1d1f4dec ;
+    text-align: center;
+}
+
+h3{
+    color: hsl(273, 45%, 24%);
+}
+p{
+    text-align: justify;
+}
+
 button{
-    margin: 20px;
+    font-size: 15px;
+    font-style: italic;
+    margin: auto;
+    padding: 5px;
+    width: 100px;
+    border-radius: 100px;
+    box-shadow: 5px 5px 10px black;
+    background-color: white;
+    
 }
