@@ -7,6 +7,14 @@ body{
     background-image: linear-gradient(to top, #F2D7B6, #d49881, #D9805F);
     background-attachment: fixed;
 }
+header{
+    background-image: linear-gradient(-45deg, #CCD9D7, #223859);
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgb(29, 32, 77);
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+}
 main{
     background-image: linear-gradient(-45deg, #CCD9D7, #223859);
     border-radius: 15px;
