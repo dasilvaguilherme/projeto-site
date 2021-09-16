@@ -12,7 +12,7 @@ header{
     border-radius: 15px;
     box-shadow: 5px 5px 20px rgb(29, 32, 77);
     width: 800px;
-    padding: 20px;
+    padding: auto;
     margin: auto;
 }
 main{
@@ -52,5 +52,15 @@ button{
     border-radius: 100px;
     box-shadow: 5px 5px 10px black;
     background-color: white;
-    
+}
+footer{
+    background-image: linear-gradient(-45deg, #CCD9D7, #223859);
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgb(29, 32, 77);
+    width:auto;
+    hidht: auto;
+    padding: auto;
+    margin: 5px;
 }
