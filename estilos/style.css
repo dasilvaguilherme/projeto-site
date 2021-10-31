@@ -24,6 +24,19 @@ main{
     margin: auto;
 }
 
+/*
+    Em HTML o que é id - Em CSS é ( # )
+    Em HTML o que é class - Em CSS é ( . )
+*/
+
+#octacat{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 6px 6px 6px 6px;
+    padding-right: 30%;
+    padding-left: 35%;
+}
+
 h1{
     color: #D9D48B;
     text-shadow: 2px 2px 10px #807c52 ;
@@ -60,7 +73,7 @@ footer{
     border-radius: 15px;
     box-shadow: 5px 5px 20px rgb(29, 32, 77);
     width:auto;
-    hidht: auto;
+    height: auto;
     padding: auto;
     margin: 5px;
 }
