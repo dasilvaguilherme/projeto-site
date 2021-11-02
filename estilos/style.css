@@ -105,6 +105,7 @@ main  h1 {
     font-size: 1.8em;
 }
 
+
 main  h2 {
     font-family: var(--fonte-android);
     color: var(--cor4);
@@ -150,6 +151,7 @@ main img.pequena {
     display: block;
     margin: auto;
 }
+
 
 footer {
     background-color: var(--cor5);

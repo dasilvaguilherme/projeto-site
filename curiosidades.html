@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icons/gitem.ico" type="image/x-icon">
+    <title>Meu Primeiro Site</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <style>
+        input{
+            font: normal 18pt Arial;
+            width: 120px;
+            border-radius: 10px;
+        }
+        input#somar{
+            background-color: royalblue;
+        }
+        div#res{
+            margin-top: 20px;
+            font: italic 15pt Arial;
+        }
+        h1#exemplo{
+            font-family: var(--fonte-android);
+            color: var(--cor4);
+            font-size: 1.3em;
+            font-weight: normal;
+            background-image: linear-gradient(to right, var(--cor1), transparent);
+            text-indent: 8px;
+            margin-bottom: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header> 
+            <h1>Seja bem vindo!</h1>
+            <p>Estamos testando algumas funcionalidades em Javascript!</p>
+    </header>
+    <nav>
+        <a href="index.html" target="_self" rel="index">Home</a>
+        <a href="#">Fale Conosco</a>
+    </nav>
+    <main>
+        <article>
+            <h1 id="exemplo">Exemplo de soma entre valores </h1>
+            <input type="number" name="txtn1" id="txtn1"> +
+            <input type="number" name="txtn2" id="txtn2">
+            <input type="button" value="Somar" onclick="somar()">
+            <div id="res">Resultado</div>
+            <script>
+                function somar(){
+                    var tn1 = window.document.getElementById('txtn1')
+                    var tn2 = window.document.getElementById('txtn2')
+                    var res = window.document.getElementById('res')
+                    var n1 = Number(tn1.value)
+                    var n2 = Number(tn2.value)
+                    var s = n1 + n2
+                    res.innerText = `A soma entre ${n1} e ${n2} é igual a ${s} `
+                }
+            </script>
+
+        </article>
+        
+    </main>
+
+    
+</body>
+    <footer>
+        <p>Site desenvolvido por <a href="https://github.com/dasilvaguilherme" target="_blank">Guilherme Silva</a>.</p>
+    </footer>
+</html>
