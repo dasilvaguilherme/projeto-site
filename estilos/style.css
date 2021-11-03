@@ -171,6 +171,11 @@ footer a:hover {
     text-decoration: underline;
     color: var(--cor1);
 }
+#button2{
+    font: normal 18pt Arial;
+    width: 120px;
+    border-radius: 10px;
+}
 button{
     box-shadow: 7px 7px 7px black;
     border-radius: 15px;
@@ -180,3 +185,6 @@ button > a:hover {
     background-color: var(--cor3);
     color: var(--cor0);
 }
+
+
+

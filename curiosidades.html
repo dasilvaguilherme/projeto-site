@@ -10,13 +10,25 @@
     <style>
         input{
             font: normal 18pt Arial;
-            width: 120px;
+            width: 80px;
             border-radius: 10px;
+            box-shadow: 7px 7px 7px black;
+            border-radius: 15px;
+        }       
+        input#texto{
+            font: normal 18pt Arial;
+            width: 200px;
+            border-radius: 10px;
+            box-shadow: 7px 7px 7px black;
+            border-radius: 15px;
+            
         }
-        input#somar{
-            background-color: royalblue;
-        }
+               
         div#res{
+            margin-top: 20px;
+            font: italic 15pt Arial;
+        }
+        div#ress{
             margin-top: 20px;
             font: italic 15pt Arial;
         }
@@ -28,6 +40,26 @@
             background-image: linear-gradient(to right, var(--cor1), transparent);
             text-indent: 8px;
             margin-bottom: 10px;
+        }
+        h1#exemplo2{
+            font-family: var(--fonte-android);
+            color: var(--cor4);
+            font-size: 1.3em;
+            font-weight: normal;
+            background-image: linear-gradient(to right, var(--cor1), transparent);
+            text-indent: 8px;
+            margin-bottom: 10px;
+        }
+        #p3{
+            margin-top: 20px;
+            font: italic 15pt Arial;
+        }
+        #cidade{
+            font: normal 18pt Arial;
+            width: 150px;
+            border-radius: 10px;
+            box-shadow: 7px 7px 7px black;
+            border-radius: 15px;
         }
         
     </style>
@@ -58,9 +90,44 @@
                     var s = n1 + n2
                     res.innerText = `A soma entre ${n1} e ${n2} é igual a ${s} `
                 }
-            </script>
+            
+            </script>   
 
         </article>
+        <article>
+            <br>
+            <h1 id="exemplo2">Paulista e Paulistano?</h1>
+            <p id="p3">
+                A cidade em que Nasceu é da:
+                <select id="cidade">
+            </p>
+                <option value="Capital">Capital</option>
+                <option value="Grande-SP">Grande-SP</option>
+            </select>
+            <input type="text" placeholder="Informe a cidade" id="texto">
+            <button onclick="minhaFuncao()" id="button2">Enviar</button>
+            <div id="ress">
+
+            </div>
+            <script>
+        
+                function minhaFuncao() {
+                var cid = window.document.querySelector('#cidade').value
+                var res = window.document.querySelector('div#ress')
+                       
+            
+                if(cid != "Capital"){
+                ress.innerHTML = `<p>Você nasceu em uma cidade na ${cid}, logo você é <strong>Paulista</strong></p>`
+                }else {
+                ress.innerHTML = `<p>Você nasceu em uma cidade na ${cid}, logo você é <strong>Paulistano</strong></p>`
+                
+                    }
+                }
+                
+                
+            </script>
+        </article>
+        
         
     </main>
 
