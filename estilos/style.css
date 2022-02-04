@@ -9,12 +9,12 @@
 }
 
     :root {
-        --cor0:#eacbf0;
+        --cor0:#604b64;
         --cor1:#C988D5;
         --cor2:#AA40BD;
         --cor3:#7C2F8A;
         --cor4:#37153D;
-        --cor5:#4a3e4d; 
+        --cor5:#efecf0; 
 
         --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
         --fonte-destaque: 'Bebas Neue', cursive;
@@ -28,6 +28,8 @@
 
 body{
     background-color: var(--cor0);
+    background-image: url(/imagens-png/my-octocat-GG.png);
+    background-position: center;
     font-family: var(--fonte-padrao);
 }
 
@@ -91,7 +93,9 @@ main {
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.100);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     box-shadow: 0px 0px 10px #00000088;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -101,6 +105,7 @@ main {
 main  h1 {
     color: var(--cor5);
     font-family: var(--fonte-android);
+    text-align: center;
     font-weight: normal;
     font-size: 1.8em;
 }
@@ -115,7 +120,17 @@ main  h2 {
     text-indent: 8px;
 }
 
+main  h3 {
+    color: var(--cor5);
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
 main p {
+    color: var(--cor5);
     margin: 15px 0px;
     text-align: justify;
     text-indent: 30px;
@@ -139,7 +154,7 @@ main a {
 
 main a:hover{
     text-decoration: underline;
-    color: var(--cor4);
+    color: var(--cor5);
 }
 
 main > img {
