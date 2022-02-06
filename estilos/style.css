@@ -28,7 +28,7 @@
 
 body{
     background-color: var(--cor0);
-    background-image: url('../imagens-png/my-octocat-GG.png');
+    background-image: url(https://github.com/dasilvaguilherme/projeto-site/blob/main/imagens-png/my-octocat-GG.png?raw=true);
     background-position: center;
     max-width: 100%;
     height: auto;

@@ -18,5 +18,6 @@ function minhaFuncao() {
     ress.innerHTML = `<p>Você nasceu em ${cid1} uma cidade na ${cid}, logo você é <strong>Paulista</strong></p>`
     } else {
     ress.innerHTML = `<p>Você nasceu em ${cid1} uma cidade na ${cid}, logo você é <strong>Paulistano</strong></p>`
-    }
+    } 
+    
 }
