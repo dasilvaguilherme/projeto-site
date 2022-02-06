@@ -28,7 +28,7 @@
 
 body{
     background-color: var(--cor0);
-    background-image: url(/imagens-png/my-octocat-GG.png);
+    background-image: url('../imagens-png/my-octocat-GG.png');
     background-position: center;
     max-width: 100%;
     height: auto;
@@ -170,9 +170,31 @@ main img.pequena {
     margin: auto;
 }
 
+article p {
+    color: var(--cor5);
+
+}
+
+#p3 {
+    color: var(--cor5);
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+#res {
+    color: var(--cor5);
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
 
 footer {
-    background-color: var(--cor5);
+    background-color: var(--cor4);
     color: white;
     text-align: center;
     font-size: 0.8em;
@@ -194,6 +216,9 @@ footer a:hover {
     width: 120px;
     border-radius: 10px;
 }
+
+
+
 button{
     box-shadow: 7px 7px 7px black;
     border-radius: 15px;

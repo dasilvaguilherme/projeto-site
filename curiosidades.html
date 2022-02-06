@@ -77,27 +77,17 @@
     <main>
         <article>
             <h1 id="exemplo">Exemplo de soma entre valores </h1>
-            <input type="number" name="txtn1" id="txtn1"> +
-            <input type="number" name="txtn2" id="txtn2">
-            <input type="button" value="Somar" onclick="somar()">
-            <div id="res">Resultado</div>
-            <script>
-                function somar(){
-                    var tn1 = window.document.getElementById('txtn1')
-                    var tn2 = window.document.getElementById('txtn2')
-                    var res = window.document.getElementById('res')
-                    var n1 = Number(tn1.value)
-                    var n2 = Number(tn2.value)
-                    var s = n1 + n2
-                    res.innerText = `A soma entre ${n1} e ${n2} é igual a ${s}`
-                }
+            <p>
+                <input type="number" name="txtn1" id="txtn1"> +
+                <input type="number" name="txtn2" id="txtn2">
             
-            </script>   
-
+            <input type="button" value="Somar" onclick="somar()"></p>
+            <div id="res">Resultado</div>
+            
         </article>
         <article>
             <br>
-            <h1 id="exemplo2">Paulista e Paulistano?</h1>
+            <h1 id="exemplo2">Paulista e Paulistano eis a questão</h1>
             <p id="p3">
                 A cidade em que Nasceu é da:
                 <select id="cidade">
@@ -107,26 +97,7 @@
             </select>
             <input type="text" placeholder="Informe a cidade" id="texto">
             <button onclick="minhaFuncao()" id="button2">Enviar</button>
-            <div id="ress">
-
-            </div>
-            <script>
-        
-                function minhaFuncao() {
-                var cid = window.document.querySelector('#cidade').value
-                var res = window.document.querySelector('div#ress')
-                       
-            
-                if(cid != "Capital"){
-                ress.innerHTML = `<p>Você nasceu em uma cidade na ${cid}, logo você é <strong>Paulista</strong></p>`
-                }else {
-                ress.innerHTML = `<p>Você nasceu em uma cidade na ${cid}, logo você é <strong>Paulistano</strong></p>`
-                
-                    }
-                }
-                
-                
-            </script>
+            <div id="ress"></div>
         </article>
         
         
@@ -137,4 +108,5 @@
     <footer>
         <p>Site desenvolvido por <a href="https://github.com/dasilvaguilherme" target="_blank">Guilherme Silva</a>.</p>
     </footer>
+    <script src="testando1.js"></script>
 </html>
