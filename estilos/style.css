@@ -30,6 +30,9 @@ body{
     background-color: var(--cor0);
     background-image: url(/imagens-png/my-octocat-GG.png);
     background-position: center;
+    max-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
     font-family: var(--fonte-padrao);
 }
 
