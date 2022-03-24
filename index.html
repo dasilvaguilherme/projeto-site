@@ -5,74 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="icons/gitem.ico" type="image/x-icon">
-    <title>Meu Primeiro Site</title>
+    <meta name="description" content="Meu primeiro site com informações pessoais e portifólio!">
+    <title>Guilherme Silva - Portifólio</title>
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-    <header> 
-            <h1>Seja bem vindo ao meu universo!</h1>
-            <p>Este universo esta em desenvolvimento!</p>
+    <header class="cabecalho"> 
+            <h1 class="cabecalho-titulo">Seja bem vindo ao meu universo, este universo esta em desenvolvimento!</p></p></h1>
     </header>
-    <nav>
-        <a href="index.html" target="_self" rel="index">Home</a>
-        <a href="curiosidades.html" target="_self" rel="index">Testanto JavaScript</a>
-        <a href="#">Fale Conosco</a>
+    <nav class="cabecalho-menu">
+        <a class="cabecalho-menu-botao" href="index.html" target="_self" rel="index">Home</a>
+        <a class="cabecalho-menu-botao" href="curiosidades.html" target="_self" rel="index">Testanto JavaScript</a>
+        <a class="cabecalho-menu-botao" href="#">Fale Conosco</a>
     </nav>
-    <main>
+    <main class="principal"> 
         <article>
-            <h1>Eu sou Guilherme Silva</h1>
+            <h1 class="principal-titulo">Eu sou Guilherme Silva</h1>            
+            <p class="principal-paragrafo">Paulista, porque nasci no estado de São Paulo, mas não sou paulistano, porque nasci em Barueri e ainda moro por essas bandas e que fique claro isso rs rs. Um pouco sobre mim: Excelente pessoa com boa facilidade em falar em público, Energetico e alegre, adoro um desafio que me prenda e atraia totalmente minha atenção. Praticar esportes esta no meu  DNA de competidor, adoro ler um bom <strong>"Mangá"</strong> ou assistir <strong>"Animes"</strong> novos ou antigos e aqueles mais nostalgicos estou sempre reassistindo. Estou em busca de meus objetivos no mundo da tecnologia, me tornar um desenvolvedor de sites e programas e no futuro desenvolver APP ou Jogos. Sonhos? Objetivos? aaaaaaaah deixemos pra um proximo bate-papo.</p>
+            <details class="detalhes">
+                <summary>
+                    <h2 class="principal-cursos-ativos">
+                        Cursos "Inprogress":
+                    </h2>
+                </summary>
+            
+            <p class="principal-paragrafo">Superior Técnico em Análise e Desenvolvimento de Sistemas - Universidade Paulista (UNIP);</p>
+            <p class="principal-paragrafo">Python 3 – Mundo 1 [40 Horas] - Curso em Vídeo</p>
+            <p class="principal-paragrafo">Curso HTML5 e CSS3: módulo 3 de 5 [40 HORAS] - Curso em Vídeo</p>
+            </details>
+            <details class="detalhes">
+                <summary>
+                    <h2 class="principal-cursos-completos">
+                    Cursos "Completed":
+                    </h2>
+                </summary>
+            <p class="principal-paragrafo">Javascript [40 Horas] - Curso em Vídeo</p>
+            <p class="principal-paragrafo">HTML5 e CSS3: módulo 1 de 5 [40 HORAS] - Curso em Vídeo</p>
+            <p class="principal-paragrafo">Curso HTML5 e CSS3: módulo 2 de 5 [40 HORAS] - Curso em Vídeo</p>
+            <p class="principal-paragrafo">Git e GitHub [20 Horas] - Curso em Vídeo</p>
+            <p class="principal-paragrafo">"Técnico em Montagem e Manutenção de Microcomputadores" - Escola Senai - Mariano Ferraz</p>
+            <p class="principal-paragrafo">"Administração de Redes Windows" - Escola Senai - Mariano Ferraz</p>
+            <p class="principal-paragrafo">"Implantação de Redes locais" - Escola Senai - Mariano Ferraz</p>
+            <p class="principal-paragrafo">"Técnico em Redes de Computadores" - (Cisco Network Academy) – ITB Professor Munir José.</p>
+            <br>
+            </details>
+            
+            <details class="detalhes">
+                <summary>
+                    <h2 class="detalhes-titulo">Um pouco de minhas experiencias profissionais:</h2>
+                </summary>
                 <br>
+                <h3 class="detalhes-subtitulo">Teletech Brasil Serviços LTDA.</h3>
+                <h3 class="detalhes-subtitulo">Sales Developer Google Cloud & G Workspace - 10/2019 - 02/2022</h3>
+                <p class="detalhes-paragrafo">Prospecção e encaminhamento aos executivos comerciais de novas contas para G Suite através de BANT;</p>
+                <p class="detalhes-paragrafo">Atendimento a clientes direcionados do site da Google Cloud Platform; identificando e entendendo a necessidade em relação à infraestrutura (servidores virtuais, armazenamento, banco de dados, etc) de cada um;</p>
+                <p class="detalhes-paragrafo">Contato direto com executivos de contas do Google para acompanhamento posterior de cada cliente;</p>
+                <p class="detalhes-paragrafo">Atendimento também a clientes da Google Maps Platform, identificando suas devidas necessidades em relação a utilização das APIs da plataforma;</p>
+                <p class="detalhes-paragrafo">Agendamento de contato posterior diretamente com os responsáveis de cada conta;</p>
+                <p class="detalhes-paragrafo">Participação no projeto responsável por contas corporativas; trabalhando em conjunto com executivos de contas Google no estabelecimento de contato com C Levels para criação de novas oportunidades;</p>
+                <p class="detalhes-paragrafo">Ampla utilização da ferramenta Salesforce para organização de leads,criação de relatórios e controle individual de clientes.</p>
+                <br>
+                <h3 class="detalhes-subtitulo">Especialista Suporte em Google ADS - 01/2019 - 10/2019</h3>
+                <p class="detalhes-paragrafo">Criação de planilhas para controle de ligações;</p>
+                <p class="detalhes-paragrafo">Suporte em atendimentos telefônicos e digital;</p>
+                <p class="detalhes-paragrafo">Experiência em plataformas Google ads, Qualify e Salesforce;</p>
+                <p class="detalhes-paragrafo">Relatórios sobre atendimentos, metas e desenvolvim  ento;</p>
+                <p class="detalhes-paragrafo">Formalização de atendimentos via digital;</p>
+            </details>
+            <section class="conteudo-final">
+                <div class="conteudo-fnal-escrito">
+                    <p>Então é isso! Espero que você tenha gostado do meu primeiro site, espero em breve poder atualiza-lo ainda mais.</p>
+                    <br>
+                    <button><a href="curriculo/GUILHERME-SILVA.pdf" dowload="guilhermes-silva.pdf" type="application/pdf" Target="_blank" rel="external">Currículo</a>
+                    </button>
+                    <button><a href="https://www.linkedin.com/in/guilhermesilva582/" target="_blank" rel="external">Linkedin</a></button>
+                    <button><a href="https://github.com/dasilvaguilherme" target="_blank" rel="external">Github</a></button>
+                    <button><a href="https://www.instagram.com/opsguiihsilva_" target="_blank" rel="external">Instagram</a></button>
+                </div>
                 
-                <p>Paulista, porque nasci no estado de São Paulo, mas não sou paulistano, porque nasci em Barueri e ainda moro por essas bandas e que fique claro isso rs rs. Um pouco sobre mim: Excelente pessoa com boa facilidade em falar em público, Energetico e alegre, adoro um desafio que me prenda e atraia totalmente minha atenção. Praticar esportes esta no meu  DNA de competidor, adoro ler um bom <strong>"Mangá"</strong> ou assistir <strong>"Animes"</strong> novos ou antigos e aqueles mais nostalgicos estou sempre reassistindo. Estou em busca de meus objetivos no mundo da tecnologia, me tornar um desenvolvedor de sites e programas e no futuro desenvolver APP ou Jogos. <br> Sonhos? Objetivos? aaaaaaaah deixemos pra um proximo bate-papo.</p>
-                <h2>
-                Cursos "Inprogress":
-                </h2>
-                <p>Superior Técnico em Análise e Desenvolvimento de Sistemas - Universidade Paulista (UNIP);</p>
-                <p>Python 3 – Mundo 1 [40 Horas] - Curso em Vídeo</p>
-                <p>Curso HTML5 e CSS3: módulo 3 de 5 [40 HORAS] - Curso em Vídeo</p>
-                <h2>
-                Cursos "Completed":
-                </h2>
-                <p>Javascript [40 Horas] - Curso em Vídeo</p>
-                <p>HTML5 e CSS3: módulo 1 de 5 [40 HORAS] - Curso em Vídeo</p>
-                <p>Curso HTML5 e CSS3: módulo 2 de 5 [40 HORAS] - Curso em Vídeo</p>
-                <p>Git e GitHub [20 Horas] - Curso em Vídeo</p>
-                <p>"Técnico em Montagem e Manutenção de Microcomputadores" - Escola Senai - Mariano Ferraz</p>
-                <p>"Administração de Redes Windows" - Escola Senai - Mariano Ferraz</p>
-                <p>"Implantação de Redes locais" - Escola Senai - Mariano Ferraz</p>
-                <p>"Técnico em Redes de Computadores" - (Cisco Network Academy) – ITB Professor Munir José.</p>
-                <br>
-                <details>
-                    <summary>
-                        <h2>Um pouco de minhas experiencias profissionais:</h2>
-                    </summary>
-                    <br>
-                    <h3>Teletech Brasil Serviços LTDA.</h3>
-                    <h3>Sales Developer Google Cloud & G Workspace - 10/2019 - 02/2022</h3>
-                    <p>Prospecção e encaminhamento aos executivos comerciais de novas contas para G Suite através de BANT;</p>
-                    <p>Atendimento a clientes direcionados do site da Google Cloud Platform; identificando e entendendo a necessidade em relação à infraestrutura (servidores virtuais, armazenamento, banco de dados, etc) de cada um;</p>
-                    <p>Contato direto com executivos de contas do Google para acompanhamento posterior de cada cliente;</p>
-                    <p>Atendimento também a clientes da Google Maps Platform, identificando suas devidas necessidades em relação a utilização das APIs da plataforma;</p>
-                    <p>Agendamento de contato posterior diretamente com os responsáveis de cada conta;</p>
-                    <p>Participação no projeto responsável por contas corporativas; trabalhando em conjunto com executivos de contas Google no estabelecimento de contato com C Levels para criação de novas oportunidades;</p>
-                    <p>Ampla utilização da ferramenta Salesforce para organização de leads,criação de relatórios e controle individual de clientes.</p>
-                    <br>
-                    <h3>Especialista Suporte em Google ADS - 01/2019 - 10/2019</h3>
-                    <p>Criação de planilhas para controle de ligações;</p>
-                    <p>Suporte em atendimentos telefônicos e digital;</p>
-                    <p>Experiência em plataformas Google ads, Qualify e Salesforce;</p>
-                    <p>Relatórios sobre atendimentos, metas e desenvolvim  ento;</p>
-                    <p>Formalização de atendimentos via digital;</p>
-                </details>                
-                <br>
-                <p>Então é isso! Espero que você tenha gostado do meu primeiro site, espero em breve poder atualiza-lo ainda mais.</p>
-                <br>
-                <br><button><a href="curriculo/GUILHERME-SILVA.pdf" dowload="guilhermes-silva.pdf" type="application/pdf" Target="_blank" rel="external">Currículo</a>
-                </button>
-                <button><a href="https://www.linkedin.com/in/guilhermesilva582/" target="_blank" rel="external">Linkedin</a></button>
-                <button><a href="https://github.com/dasilvaguilherme" target="_blank" rel="external">Github</a></button>
-                <button><a href="https://www.instagram.com/opsguiihsilva_" target="_blank" rel="external">Instagram</a></button>
-                <a href="#top" class="glyphicon glyphicon-chevron-up">&#128285;</a>
+            </section>
         </article>        
     </main>
 </body>
