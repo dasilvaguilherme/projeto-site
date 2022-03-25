@@ -149,7 +149,7 @@ button{
     font-weight: 400;
     font-size: 16px;
     color: #FFF2EF;
-    background-color: #6f4a427e;
+    background:linear-gradient( to left, #0000ffbb 20%, #000000e9 90%); 
 }
 
 .rodape-paragrafo{
